@@ -4,7 +4,7 @@ import First from './first';
 import Button from './Button';
 
 function App() {
-  const hello = <h1>Hello, Good day</h1>
+  const hello = <h1>Hello, Good Luck, Have a nice day</h1>
   return (
     <div className="App">
       {hello}
