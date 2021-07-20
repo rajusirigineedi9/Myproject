@@ -1,18 +1,18 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import First from './first';
-import Button from './Button';
+import UseReducer from './Hooks/UseReducer';
+
+
+
+
+
 
 function App() {
-  const hello = <h1>Hello, Good Luck, Have a nice day</h1>
-  return (
-    <div className="App">
-      {hello}
-      <First />
-     {/* <Button title="click m" /> */}
-      <Button title="click" />
-      <Button style={{backgroundColor:"red"}} title="click"></Button>
-      <h1 style={{color:"green"}}>raju</h1>
+    return (
+    <div>
+     
+<UseReducer/>
     </div>
   );
 }
